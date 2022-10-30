@@ -2,6 +2,7 @@
 @import url("../font/HelveticaNeue.ttc");
 
 html{
+  /* used var from example plus added my own */
   --type-main: #222222;
   --key: #EEEEEE;
   --colour: #73A9AC;
@@ -95,6 +96,7 @@ h5{
 /* heading for footer */
 h6{
   padding-top: 25px;
+  /* auto capitalise/uppercase */
   text-transform: capitalize;
 }
 
