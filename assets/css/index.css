@@ -1,0 +1,169 @@
+@import url("../font/GillSans.ttc");
+@import url("../font/HelveticaNeue.ttc");
+
+html{
+  --type-main: #222222;
+  --key: #EEEEEE;
+  --colour: #73A9AC;
+
+  scroll-behavior: smooth;
+}
+
+header{
+  position: fixed;
+  height: 50px;
+  /* dont want to display background ~ background: #73A9ACB5; */
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* to space list evenly */
+#hv{
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 135px;
+}
+
+/* to make padding area around text */
+#hva{
+  padding: 5px 10px;
+  background: var(--key);
+  border-radius: 5px;
+  color: var(--type-main);
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 2px #222222;
+}
+
+/* same sort of idea for the link to curious canberra */
+#cc{
+  font-size: 12px;
+  padding: 5px 10px;
+  background: var(--key);
+  border-radius: 5px;
+  color: #336666;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: -10px;
+}
+
+/* designed a background to add a bit of interest, designed in mind of the lake and mountains */
+body{
+  background-image: url("../img/lineswebsite.png");
+  background-size: 1000px;
+  background-color: #92B7BC;
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  color: var(--type-main);
+}
+
+/* to inset all the content so it isnt too close to the edge of the page */
+div{
+  padding: 0px 200px;
+  margin-bottom: 50px;
+}
+
+h1{
+  font-size: 42px;
+  line-height: 0px;
+}
+
+h2{
+  font-size: 24px;
+  padding: 25px 0px;
+}
+
+h3{
+  font-size: 24px;
+  padding: 25px 0px;
+
+}
+
+h4{
+  font-size: 24px;
+  padding: 25px 0px;
+}
+
+h5{
+  font-size: 24px;
+  padding: 25px 0px;
+}
+
+/* heading for footer */
+h6{
+  padding-top: 25px;
+  text-transform: capitalize;
+}
+
+/* inset the text */
+section{
+  background: var(--key);
+  padding: 0px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px #222222;
+}
+
+#s1{
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#s2{
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#s3{
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#s4{
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#s5{
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+/* change the font for the body */
+p{
+  font-family: 'Gill Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px #222222;
+}
+
+#highlight{
+  text-align: center;
+  font-size: 24px;
+}
+
+#footer{
+  background: var(--key);
+  padding-bottom: 25px;
+}
+
+#ra{
+  font-size: 12px;
+  padding: 5px 10px;
+  background: var(--key);
+  border-radius: 5px;
+  color: #336666;
+  text-decoration: none;
+  margin-left: -10px;
+  /* instead of horizontal alignment i have verically listed these references */
+  display: table;
+}
